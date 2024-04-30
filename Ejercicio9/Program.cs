@@ -1,12 +1,10 @@
-﻿
-using System.ComponentModel.Design;
-
-namespace Ejercicio9
+﻿namespace Ejercicio9
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Funciones.menu();
         }
     }
 }

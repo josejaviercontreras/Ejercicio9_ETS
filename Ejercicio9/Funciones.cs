@@ -9,10 +9,25 @@ namespace Ejercicio9
     internal class Funciones
     {
         // public static int sumar(int a, int b)
-        // public static int multiplicar(int a, int b)
+        public static int multiplicar(int a, int b)
+        {
+            return a * b;
+        }
+
         // public static int dividir(int a, int b)
-        // public static int restar(int a, int b)
-        // public static void menu()
+        public static int restar(int a, int b)
+        {
+            return a - b;
+        }
+
+        public static void menu()
+        {
+            Console.WriteLine("Elija una opción:");
+            Console.WriteLine("1. Suma");
+            Console.WriteLine("2. Multiplicar");
+            Console.WriteLine("3. Dividir");
+            Console.WriteLine("4. Restar");
+        }
        
     }
 }
