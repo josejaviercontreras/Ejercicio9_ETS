@@ -20,14 +20,17 @@ namespace Ejercicio9
             return a - b;
         }
 
-        public static void menu()
+        //public static void menu()
+
+        public static void opciones()
         {
             Console.WriteLine("Elija una opción:");
-            Console.WriteLine("1. Suma");
-            Console.WriteLine("2. Multiplicar");
-            Console.WriteLine("3. Dividir");
-            Console.WriteLine("4. Restar");
+            Console.WriteLine("Opcion 1. Sumar");
+            Console.WriteLine("Opcion 2. Multiplicar");
+            Console.WriteLine("Opcion 3. Dividir");
+            Console.WriteLine("Opcion 4. Restar");
+            Console.WriteLine("Salir");
         }
-       
+
     }
 }
