@@ -10,7 +10,7 @@ namespace Ejercicio9
     {
          public static int sumar(int a, int b) => a + b;
         // public static int multiplicar(int a, int b)
-        // public static int dividir(int a, int b)
+         public static int dividir(int a, int b) => a / b;
         // public static int restar(int a, int b)
         // public static void menu()
        
