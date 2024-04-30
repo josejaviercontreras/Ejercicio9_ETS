@@ -59,15 +59,6 @@ namespace Ejercicio9
             }
         }
 
-        public static void opciones()
-        {
-            Console.WriteLine("1 - sumar");
-            Console.WriteLine("2 - restar");
-            Console.WriteLine("3 - multimplicar");
-            Console.WriteLine("4 - dividir");
-            Console.WrietLine("0 - salir");
 
-        }
-       
     }
 }
